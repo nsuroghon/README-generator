@@ -1,0 +1,63 @@
+const inquirer = require('inquirer');
+//const fs = require('fs');
+
+const questions = inquirer.prompt([
+    //title
+        {
+            type: "input",
+            message: "Enter a project title",
+            name: "title"
+        },
+    //description
+        {
+            type: "input",
+            message: "Enter a project description",
+            name: "description"
+        },
+    //installation instructions
+         {
+            type: "input",
+            message: "What are this project's installation instructions?",
+            name: "installation"
+        },
+     //usage information
+     {
+        type: "input",
+        message: "What is the usage purpose of this project?",
+        name: "usage"
+    },
+     //contribution guidelines
+     {
+        type: "input",
+        message: "Who contributed in creating this project?",
+        name: "contribution"
+    },
+     //test instructions
+     {
+        type: "input",
+        message: "What are the test instructions?",
+        name: "tests"
+    },
+    //License (DROPDOWN OPTION)
+    {
+        type: "checkbox", 
+        message: "Select a license",
+        choices: [
+            "MIT",
+            "Apache"
+        ],
+        name: "license"
+    },
+    //username
+    {
+        type: "input",
+        message: "Enter your github username?",
+        name: "username"
+    },
+    //email address
+    {
+        type: "input",
+        message: "Enter your email address",
+        name: "email"
+    },
+    ])
