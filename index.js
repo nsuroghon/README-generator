@@ -66,11 +66,11 @@ const questions = inquirer
     # ${data.title}
 
     ## Table of Contents
-    * [App Description](#description)
+    * [Description](#description)
     * [Installation Guide](#installation)
     * [Usage Information](#usage)
     * [Contributions](#contribution)
-    * [Application Test](#tests)
+    * [Test Instructions](#tests)
     * [License](#license)
 
     ## Description
@@ -92,7 +92,7 @@ const questions = inquirer
     ${data.license}
 
     ## More Info
-    Github: ${data.username}
+    Github: https://github.com/${data.username}
     Email: ${data.email}
     `,
     //callback function
@@ -102,6 +102,5 @@ const questions = inquirer
     });
   });
 
-  //formatted with extension prettier, cmd shift p 
 
 
