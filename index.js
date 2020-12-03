@@ -63,37 +63,37 @@ const questions = inquirer
     fs.writeFile("readme.md",
     // pass on info to file
     `
-    # ${data.title}
+# ${data.title}
 
-    ## Table of Contents
-    * [Description](#description)
-    * [Installation Guide](#installation)
-    * [Usage Information](#usage)
-    * [Contributions](#contribution)
-    * [Test Instructions](#tests)
-    * [License](#license)
+## Table of Contents
+* [Description](#description)
+* [Installation Guide](#installation)
+* [Usage Information](#usage)
+* [Contributions](#contribution)    
+* [Test Instructions](#tests)
+* [License](#license)
 
-    ## Description
-    ${data.description}
+## Description
+${data.description}
 
-    ## Installation
-    ${data.installation}
+## Installation
+${data.installation}
 
-    ## Usage
-    ${data.usage}
+## Usage
+${data.usage}
 
-    ## Contribution
-    ${data.contribution}
+## Contribution
+${data.contribution}
 
-    ## Test
-    ${data.tests}
+## Test
+${data.tests}
 
-    ## License
-    ${data.license}
+## License
+${data.license}
 
-    ## More Info
-    Github: https://github.com/${data.username}
-    Email: ${data.email}
+## More Info
+Github: https://github.com/${data.username}
+Email: ${data.email}
     `,
     //callback function
      function (err) {
