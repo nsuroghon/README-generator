@@ -1,5 +1,7 @@
 
-# 1
+# README generator
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
 * [Description](#description)
@@ -10,24 +12,25 @@
 * [License](#license)
 
 ## Description
-1
+This application dynamically generates a profesionnal README.md file.
 
 ## Installation
-1
+The application will be envoked using node index.js
 
 ## Usage
-1
+For developers to have a template to create professional README.md files.
 
 ## Contribution
-1
+Niv Suroghon
 
 ## Test
-1
+Test instructions to be updated in the near future.
 
 ## License
 MIT
 
 ## More Info
-Github: https://github.com/1
-Email: 1
+Github: https://github.com/nsuroghon
+
+Email: nsuroghon@gmail.com
     

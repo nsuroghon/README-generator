@@ -95,6 +95,7 @@ ${data.license}
 
 ## More Info
 Github: https://github.com/${data.username}
+
 Email: ${data.email}
     `,
     //callback function
